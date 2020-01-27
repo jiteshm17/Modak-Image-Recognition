@@ -2,8 +2,6 @@
 A Neural Network which recognises Modak in images
 [Link to Dataset](https://drive.google.com/open?id=1pIZQh_a8TLnjj_2Lm6Lu4PNa9Hcpq84R)
 
-Modak Image Recognition Task
-
 I have used keras for this task which is a binary classification problem to predict if an image consists of modak or not. All code is available in the jupyter notebook in the repository. I have used Google Colab which gives free to a pretty powerful GPU thereby speeding up training time significantly.
 
 ## 1. Data collection and preparation of images
