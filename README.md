@@ -35,6 +35,8 @@ I set the total number of epochs to be trained as 20 and used a callback for Sto
 ## 4. Results
 
 I obtained a final training accuracy of 96.19 % and a validation accuracy of 97.5 %
+Plotting the loss and accuracy as the training progressed:
+![alt text](https://github.com/jiteshm17/Modak-Image-Recognition/blob/master/screenshots/accuracy_loss_plot.png)
 
 ## 5. Testing the model
 
