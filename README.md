@@ -20,11 +20,11 @@ I used data augmentation techniques like Random Horizontal Flip, Random rotation
 
 ## 2. Training and validation split
 
-I used 90 % of the total number of images as the training set which were about 2107 and the remaining 232 images for validaion.
+I used 90 % of the total number of images as the training set which were about 2107 and the remaining 232 images for validation.
 
 ## 3. Training the network
 
-I used VGG16 network as the backbone and froze the weights of the backbone leayers during training. I added a fully connected layer with 'relu' as the activation function, a dropout layer to prevent overfitting and then finally a fully connected and then finally a Dense Layer with sigmoid activation funtion since this is a binary classification problem.
+I used VGG16 network as the backbone and froze the weights of the backbone layers during training. I added a fully connected layer with 'relu' as the activation function, a dropout layer to prevent overfitting and then finally a fully connected and then finally a Dense Layer with sigmoid activation function since this is a binary classification problem.
 
 I used the Adam Optimizer with learning rate 0.01 since it is empirically proven to converge faster compared to others like sgd. I used a batch size of 32 as it has a reasonable tradeoff with speed and I obtained good accuracy.
 
