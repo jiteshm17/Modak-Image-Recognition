@@ -1,5 +1,5 @@
 # Modak-Image-Recognition
-A Neural Network which recognises Modak in images
+A Neural Network which recognises Modak in images  
 [Link to Dataset](https://drive.google.com/open?id=1pIZQh_a8TLnjj_2Lm6Lu4PNa9Hcpq84R)
 
 I have used keras for this task which is a binary classification problem to predict if an image consists of modak or not. All code is available in the jupyter notebook in the repository. I have used Google Colab which gives free to a pretty powerful GPU thereby speeding up training time significantly.
@@ -31,7 +31,7 @@ I used the Adam Optimizer with learning rate 0.01 since it is empirically proven
 I set the total number of epochs to be trained as 20 and used a callback for Stopping Early on in case the validation accuracy did not increase for more than 3 epochs and saved only the best weights of the model. In my case, it stopped at the 9th epoch as it already achieved good accuracy
 
 ## 4. Results
-
+The class label 0 denotes that the image is ‘Modak’ and 1 denotes it is ‘not’  
 I obtained a final training accuracy of 96.19 % and a validation accuracy of 97.5 %
 Plotting the loss and accuracy as the training progressed:
 ![alt text](https://github.com/jiteshm17/Modak-Image-Recognition/blob/master/screenshots/accuracy_loss_plot.png)
